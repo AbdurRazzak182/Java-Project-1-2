@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="504.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.routinemanagementsystem.FirstPageController">
+   <children>
+      <TableView fx:id="table" layoutX="84.0" layoutY="48.0" prefHeight="368.0" prefWidth="464.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="serialNumber" prefWidth="113.60003966093063" text="SL number" />
+          <TableColumn fx:id="id" prefWidth="134.39996337890625" text="ID" />
+            <TableColumn fx:id="name" prefWidth="196.7999725341797" text="Name" />
+            <TableColumn fx:id="university" prefWidth="188.79998779296875" text="University" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
